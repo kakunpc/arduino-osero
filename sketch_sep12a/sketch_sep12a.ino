@@ -1,6 +1,6 @@
 #include <Adafruit_GFX.h>
-#include "Adafruit_TFTLCD.h"
-#include "TouchScreen.h"
+#include <Adafruit_TFTLCD.h>
+#include <TouchScreen.h>
 
 #define XP              8
 #define YP              A3
@@ -188,7 +188,7 @@ void loop()
 {
     int n;
     int i;
-    Point p = ts.getPoint();
+    TSPoint p = ts.getPoint();
     pinMode(XM, OUTPUT);
     pinMode(YP, OUTPUT);
     if (p.z > MINPRESSURE && p.z < MAXPRESSURE)
