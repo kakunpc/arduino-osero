@@ -210,7 +210,7 @@ void loop()
         else
         {
             tft.println("Sokojanai!!");
-            delay(1000);
+            delay(500);
             tft.fillRect(0, 240, 200, 30, BLACK);
             tft.setCursor(0, 240);
         }
