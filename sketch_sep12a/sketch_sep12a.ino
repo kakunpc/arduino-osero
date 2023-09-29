@@ -209,7 +209,7 @@ void loop()
         }
         else
         {
-            tft.println("boke!!");
+            tft.println("Sokojanai!!");
             delay(1000);
             tft.fillRect(0, 240, 200, 30, BLACK);
             tft.setCursor(0, 240);
@@ -223,7 +223,7 @@ void loop()
         }
         if (end == 0)
         {
-            tft.println("You no ban.");
+            tft.println("Anata no ban.");
         }
         else
         {
